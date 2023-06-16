@@ -9518,7 +9518,6 @@ header.in-box {
   border-radius: 40px;
 }
 
-
 .navbar .logo {
   height: 50px;
   width: 200px;
@@ -9533,6 +9532,18 @@ header.in-box {
 .sub-footer .container .row .logo img {
   height: 100%;
   width: 100%;
+}
+
+#book-btn{
+  background-color: #007aff;
+  border-radius: 25px;
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#book-txt{
+  margin-top: -10px;
 }
 
 /* ====================== [ Start Responsive sub-footer] ====================== */
