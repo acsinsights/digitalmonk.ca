@@ -402,10 +402,6 @@ img {
   margin-bottom: 10px;
 }
 
-.price-box4 {
-  margin-top: 30px;
-}
-
 /* Buttons
 -----------------------------------------------------------------*/
 .butn {
@@ -7641,6 +7637,11 @@ body.inter-center {
   background-position: 50% 50%;
 }
 
+#services .container .row .serv-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Sliders
 -----------------------------------------------------------------*/
 .svg-animation.star line,
@@ -9564,6 +9565,11 @@ header.in-box {
 }
 
 @media screen and (max-width: 992px) {
+
+  #price-box{
+    margin-bottom: 50px !important;
+  }
+
   .md-mb10 {
     margin-bottom: 10px;
   }
