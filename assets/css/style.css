@@ -5865,6 +5865,10 @@ footer .bg-pattern {
   opacity: .5;
 }
 
+.footerimg{
+  margin-top: -70px;
+}
+
 /* Pages Header
 -----------------------------------------------------------------*/
 .page-header {
