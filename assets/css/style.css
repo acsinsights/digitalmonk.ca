@@ -386,10 +386,6 @@ img {
 }
 
 /* Pricing */
-.hidden {
-  visibility: hidden;
-}
-
 #price-box1 {
   margin-bottom: 20px;
 }
@@ -3152,6 +3148,10 @@ body.loaded {
   color: #1d1d1d;
 }
 
+.navbar .icon-bar:hover .search-form {
+  display: block;
+}
+
 .navbar .navbar-nav .nav-link {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -3307,6 +3307,11 @@ body.loaded {
   position: relative;
   right: 20px;
 }
+
+.hidden {
+  display: none;
+}
+
 
 .navbar .search-form.open .form-group {
   opacity: 1;
@@ -7637,11 +7642,12 @@ body.inter-center {
   background-position: 50% 50%;
 }
 
-#services .container .row .serv-con{
+#services .container .row .serv-con {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* Sliders
 -----------------------------------------------------------------*/
 .svg-animation.star line,
@@ -7909,6 +7915,17 @@ header.in-box {
 
 .slider .lines {
   z-index: 5;
+}
+
+.slider .v-container {
+  height: 150%;
+  width: 110%;
+  position: absolute;
+}
+
+.slider .v-container video {
+  height: 100%;
+  width: 100%;
 }
 
 .slider .swiper-slide-active {
@@ -9474,6 +9491,10 @@ header.in-box {
     margin-left: 0 !important;
     margin-top: 10px;
   }
+
+  .cursor {
+    display: none;
+  }
 }
 
 .shop-cart .coupon input {
@@ -9536,7 +9557,7 @@ header.in-box {
   width: 100%;
 }
 
-#book-btn{
+#book-btn {
   background-color: #007aff;
   border-radius: 55px;
   height: 45px;
@@ -9549,11 +9570,11 @@ header.in-box {
   margin-left: 25px;
 }
 
-#book-btn:hover{
+#book-btn:hover {
   background-color: #444;
 }
 
-#book-txt{
+#book-txt {
   color: #fff;
 }
 
@@ -9566,7 +9587,7 @@ header.in-box {
 
 @media screen and (max-width: 992px) {
 
-  #price-box{
+  #price-box {
     margin-bottom: 50px !important;
   }
 
@@ -9769,6 +9790,19 @@ header.in-box {
 
   .navbar .search-form {
     display: none;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .hidden {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: -25px;
+  }
+
+  .navbar .navbar-toggler:hover .search-form {
+    display: block;
   }
 
   .navbar .navbar-toggler {
@@ -10713,6 +10747,23 @@ header.in-box {
   .sub-footer .container .row .logo {
     margin-left: 40px;
   }
+
+  .hidden {
+    display: block;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+    left: -25px;
+  }
+
+  /* .sllider .v-container{
+    height: 500%;
+  } */
+
+  /* .slider .v-container video {
+    height: 100%;
+  } */
+
 }
 
 /* ====================== [ End Responsive ] ====================== */
