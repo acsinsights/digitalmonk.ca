@@ -398,6 +398,7 @@ img {
   margin-bottom: 10px;
 }
 
+
 /* Buttons
 -----------------------------------------------------------------*/
 .butn {
@@ -669,6 +670,14 @@ img {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+.titleSize {
+  font-size: 45px;
+}
+
+.subtitleSize {
+  font-size: 26px;
 }
 
 /* Cursor
@@ -3285,10 +3294,6 @@ body.loaded {
 
 .navbar .mega-menu .title {
   margin-bottom: 30px;
-}
-
-.navbar .mega-menu .title .sub-title {
-  font-weight: 900;
 }
 
 .navbar .mega-menu .dropdown-item {
@@ -9578,6 +9583,11 @@ header.in-box {
   color: #fff;
 }
 
+.nav-item #book-txt1 {
+  color: #fff;
+  padding-bottom: 15px;
+}
+
 /* ====================== [ Start Responsive sub-footer] ====================== */
 @media screen and (max-width: 1300px) {
   body.home-arch main:after {
@@ -10764,6 +10774,26 @@ header.in-box {
     height: 100%;
   } */
 
+}
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .titleSize {
+    font-size: 25px;
+  }
+
+  .subtitleSize {
+    font-size: 15px;
+  }
+
+  .slider .v-container {
+    height: 200%;
+    width: 500%;
+    position: absolute;
+  }
+
+  .price-box {
+    padding-top: 45px;
+  }
 }
 
 /* ====================== [ End Responsive ] ====================== */
