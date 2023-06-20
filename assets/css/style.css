@@ -5865,7 +5865,7 @@ footer .bg-pattern {
   opacity: .5;
 }
 
-.footerimg{
+.footerimg {
   margin-top: -70px;
 }
 
@@ -7927,7 +7927,7 @@ header.in-box {
 }
 
 .slider .v-container {
-  height: 150%;
+  height: 170%;
   width: 110%;
   position: absolute;
 }
@@ -10780,6 +10780,15 @@ header.in-box {
 
 }
 
+@media only screen and (min-width:510px) and (max-width:780px) {
+  .slider .v-container {
+    height: 210%;
+    width: 250%;
+    position: absolute;
+  }
+}
+
+
 @media only screen and (min-width: 200px) and (max-width: 500px) {
   .titleSize {
     font-size: 25px;
@@ -10790,8 +10799,8 @@ header.in-box {
   }
 
   .slider .v-container {
-    height: 200%;
-    width: 500%;
+    height: 210%;
+    width: 350%;
     position: absolute;
   }
 
