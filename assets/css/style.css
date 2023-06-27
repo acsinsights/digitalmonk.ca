@@ -9000,6 +9000,10 @@ header.in-box {
   object-position: center center;
 }
 
+.about-content {
+  text-align: justify;
+}
+
 .main-shop .sidebar .best-sale .line-list .cont {
   padding-left: 15px;
 }
