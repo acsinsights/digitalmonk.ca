@@ -5273,7 +5273,7 @@ body.loaded {
 }
 
 .block-sec .clients .item {
-  padding: 50px 20px;
+  padding: 38px 38px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -9004,6 +9004,9 @@ header.in-box {
   text-align: justify;
 }
 
+
+
+
 .main-shop .sidebar .best-sale .line-list .cont {
   padding-left: 15px;
 }
@@ -10793,6 +10796,11 @@ header.in-box {
 }
 
 
+@media only screen and (min-width: 1000px) and (max-width: 4000px) {
+  .mobile-menu{
+    display: none;
+  }
+}
 @media only screen and (min-width: 200px) and (max-width: 500px) {
   .titleSize {
     font-size: 25px;
@@ -10811,6 +10819,63 @@ header.in-box {
   .price-box {
     padding-top: 45px;
   }
+  .navbar .container {
+    padding: 0 14px;
+    width: 100%;
+    /* margin-top: 28px; */
+    max-width: 100%;
+}
+#price-box1 {
+  margin-bottom: 1px;
+}
+
+.butn.butn-bord {
+  border-color: #1d1d1d;
+  background: transparent;
+  color: #1d1d1d;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+.butn.butn-md {
+  padding: 7px 8px;
+}
+.navbar .logo {
+  height: 50px;
+  width: 170px;
+  margin-left: 10px;
+}
+.desktop-menu{
+  display: none;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .desktop-menu{
+    display: none;
+  }
+  #price-box1 {
+    margin-bottom: 1px;
+}
+.butn.butn-md {
+  padding: 7px 8px;
+}
+.navbar{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+@media only screen and (min-width: 200px) and (max-width: 1000px) {
+  .desktop-menu{
+    display: none;
+  }
+  #price-box1 {
+    margin-bottom: 1px;
+}
+.butn.butn-md {
+  padding: 7px 8px;
+}
+
 }
 
 /* ====================== [ End Responsive ] ====================== */
