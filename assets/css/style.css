@@ -8214,6 +8214,16 @@ header.in-box {
   height: calc(100% - 80px);
 }
 
+#team .text {
+  margin-left: -80px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #team .text {
+    margin-left: 0px;
+  }
+}
+
 .team-box .item {
   position: relative;
   padding: 15px;
@@ -10872,7 +10882,7 @@ header.in-box {
     margin-bottom: 30px;
   }
 
-  .mdmd-pb10{
+  .mdmd-pb10 {
     padding-bottom: ;
   }
 }
