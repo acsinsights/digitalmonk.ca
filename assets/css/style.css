@@ -398,7 +398,14 @@ img {
   margin-bottom: 10px;
 }
 
+.serv-logo img{
+  width: 80px;
+}
 
+.serv-logo2 img{
+  width: 60px;
+  margin-top: 6px;
+}
 /* Buttons
 -----------------------------------------------------------------*/
 .butn {
@@ -7426,7 +7433,7 @@ body.inter-center {
 }
 
 .serv-box .serv-item {
-  padding: 60px 40px;
+  padding: 40px 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -9566,6 +9573,7 @@ header.in-box {
 .sub-footer .container .row .logo {
   height: 50px;
   width: 250px;
+  display: inline-block;
 }
 
 .sub-footer .container .row .logo img {
@@ -10797,10 +10805,11 @@ header.in-box {
 
 
 @media only screen and (min-width: 1000px) and (max-width: 4000px) {
-  .mobile-menu{
+  .mobile-menu {
     display: none;
   }
 }
+
 @media only screen and (min-width: 200px) and (max-width: 500px) {
   .titleSize {
     font-size: 25px;
@@ -10819,62 +10828,73 @@ header.in-box {
   .price-box {
     padding-top: 45px;
   }
+
   .navbar .container {
     padding: 0 14px;
     width: 100%;
     /* margin-top: 28px; */
     max-width: 100%;
-}
-#price-box1 {
-  margin-bottom: 1px;
-}
+  }
 
-.butn.butn-bord {
-  border-color: #1d1d1d;
-  background: transparent;
-  color: #1d1d1d;
-  -webkit-transition: all .4s;
-  -o-transition: all .4s;
-  transition: all .4s;
-}
-.butn.butn-md {
-  padding: 7px 8px;
-}
-.navbar .logo {
-  height: 50px;
-  width: 170px;
-  margin-left: 10px;
-}
-.desktop-menu{
-  display: none;
-}
+  #price-box1 {
+    margin-bottom: 1px;
+  }
+
+  .butn.butn-bord {
+    border-color: #1d1d1d;
+    background: transparent;
+    color: #1d1d1d;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+  }
+
+  .butn.butn-md {
+    padding: 7px 8px;
+  }
+
+  .navbar .logo {
+    height: 50px;
+    width: 170px;
+    margin-left: 10px;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1000px) {
-  .desktop-menu{
+  .desktop-menu {
     display: none;
   }
+
   #price-box1 {
     margin-bottom: 1px;
+  }
+
+  .butn.butn-md {
+    padding: 7px 8px;
+  }
+
+  .navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
-.butn.butn-md {
-  padding: 7px 8px;
-}
-.navbar{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-}
+
 @media only screen and (min-width: 200px) and (max-width: 1000px) {
-  .desktop-menu{
+  .desktop-menu {
     display: none;
   }
+
   #price-box1 {
     margin-bottom: 1px;
-}
-.butn.butn-md {
-  padding: 7px 8px;
-}
+  }
+
+  .butn.butn-md {
+    padding: 7px 8px;
+  }
 
 }
 
